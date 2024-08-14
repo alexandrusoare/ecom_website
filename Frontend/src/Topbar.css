@@ -1,0 +1,26 @@
+/* TopBar.css */
+.top-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background-color: #27272A;
+  color: white;
+}
+
+.logo {
+  font-size: 1.5rem;
+  color: #c37e20;
+}
+
+.navigation ul {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+  margin-right: 20px;
+}
+
+.navigation a {
+  text-decoration: none;
+  color: white;
+}

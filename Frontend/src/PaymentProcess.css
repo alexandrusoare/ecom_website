@@ -1,0 +1,103 @@
+label {
+    display: block;
+    color: #27272A;
+    margin-top: 10px;
+    font-weight: 600;
+}
+
+.pay-title {
+    margin: 50px auto;
+    text-align: center;
+}
+
+.grid {
+   display: grid;
+   grid-template-columns: 50% 50%; 
+   width: 100%;
+}
+
+.details {
+    margin-left: 20px;
+    height: 230px;
+    align-self: center;
+    margin-bottom: 40px;
+}
+
+.payment-card {
+    width: 700px;
+    height: 500px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 10px;
+    margin: 0 auto;
+    display: flex;
+}
+
+#fullname {
+    margin-top: 5px;
+    padding: 10px;
+    width: 300px;
+    border-radius: 10px;
+    border: 2px solid #777777;
+}
+
+#cardnumber {
+    padding: 10px;
+    width: 300px;
+    margin-top: 5px;
+    border-radius: 10px;
+    border: 2px solid #777777;
+}
+
+#expiration {
+    width: 120px;
+    padding: 8px;
+    border-radius: 10px;
+    border: 2px solid #777777;
+    margin-top: 5px;
+}
+
+#ccv {
+    width: 120px;
+    padding: 8px;
+    border-radius: 10px;
+    border: 2px solid #777777;
+    margin-top: 5px;
+}
+
+.grid-sml{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+.image-card{
+    justify-self: center;
+    align-self: center;
+    margin-bottom: 40px;
+}
+
+#credit-card {
+    width: 300px;
+}
+
+#submit{
+    margin-top: 50px;
+    padding: 10px 20px 10px 20px;
+    border-radius: 10px;
+    background-color: #27272A;
+    color: #fff;
+    border: 1px solid #27272A;
+    cursor: pointer;
+    font-weight: 600;
+    font-family: 'Roboto', sans-serif;
+}
+
+#submit:hover {
+    background: transparent;
+    color: #27272A;
+    
+}
+
+#total {
+    text-align: center;
+}
+

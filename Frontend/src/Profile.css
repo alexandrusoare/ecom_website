@@ -1,0 +1,39 @@
+.general  {
+    width: 400px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 50px auto;
+    background-color: #27272A;
+    color: #fff
+}
+
+.title {
+    text-align: center;
+}
+p {
+    text-align: center;
+}
+
+.delimit {
+    border-bottom: 1px solid #fff;
+}
+
+.sign-out {
+    text-align: center;
+    margin: 0 auto;
+    display: flex;
+    margin-top: 30px;
+    font-size: 32px;
+    padding: 10px;
+    color: #fff;
+    background-color: #27272A;
+    border-radius: 10px;
+    cursor: pointer;
+    border: 1px solid #fff;
+}
+
+.sign-out:hover {
+    color: #27272A;
+    background-color: transparent;
+    border: 1px solid #27272A;
+}
